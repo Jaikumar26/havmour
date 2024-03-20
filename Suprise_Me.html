@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Suprise Me</title>
+        <style>
+            body{
+                background-color: grey;
+                color: white;
+            }
+            .form{
+                position: absolute;
+                top: 70px;
+                left: 840px;
+                width: 40%;
+                height: 50;  
+            }
+            legend{
+                font-size: 1.25em;
+                padding: 0.25em;
+                color:black;
+            }
+            fieldset{
+                margin: 2em 0;
+                padding: 1em 2em;
+                border: solid 1px #ccc;
+                border-radius: 6px;
+                min-width: 200px;
+            }
+            .formicon{
+                width: 200px;
+                position: relative;
+                left: 1140px;
+                bottom: 360px;
+            }
+            .supriseme{
+                background:gray;
+                font-size: 15px;
+            }
+            header{
+                background-color: red;
+                display: flex;
+                flex-wrap: initial;
+            }
+            footer{
+                background:red;
+                float: left;
+                width: 100%;
+                display: flex;
+                position:absolute;
+                top: 150%;
+            }
+            .Officeadd{
+                width: 300px;
+                color: white;
+            }
+            .Customercare{
+                width: 300px;
+                position: absolute;
+                top: 0;
+                left: 600px;
+                color: white;
+            }
+            .Followus{
+                width: 300px;
+                position: absolute;
+                top: 0;
+                right: 5px;
+                color: white;
+            }
+            .fa-brands{
+                color: white;
+            }   
+            .img{
+                width: 100%;
+                position:absolute;
+                right: 0%;
+                top: 70%;
+            }
+
+            .supriseme1 {
+                font-family: "Dancing Script", cursive;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                color: white;
+                align-content: center;
+            }
+            .supriseme2 {
+                font-family: "Dancing Script", cursive;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                color:black;
+                align-content: center;
+            }
+            .btn{
+                border: 1px solid black;
+                background: none;
+                padding: 10px 20px;
+                font-size: 15px;
+                cursor: pointer;
+                margin: 10px;
+                color: black;
+                transition: 0.8s;
+                position: relative;
+                overflow: hidden;
+            }
+            .btn:hover{
+                color: white;
+            }
+        </style>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header class="supriseme1" align="center">
+            <h2>Suprise
+                <span>Me</span>
+            </h2>
+        </header>
+        <hr>
+        <main>
+            <div class="supriseme" >
+            <h2 class="supriseme2"><b>Make every event a celebration
+                with Havmor ice creams</b></h2>
+                <p>Weddings, birthdays, anniversaries, or any get-together; memorable occasions deserve mouth-watering flavours.<br> So, place a Party Order, and we’ll bring to the bowl a variety of ice cream flavours that compliments every event.<br> Havmor adds MORE scoops of sweetness to all your celebrations.</p>
+                <i>Make your party memorable with Havmor ice creams</i><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo labore optio ipsum aliquid, explicabo,<br> dignissimos suscipit voluptas nulla in perspiciatis laboriosam ipsam, rem cumque! Fugiat a accusamus qui maiores.<br></p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis recusandae dolorem nulla tenetur a, praesentium,<br> aut alias porro numquam architecto aliquid debitis explicabo iure! Similique doloribus saepe numquam maiores praesentium?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nemo quo doloribus error dicta sed, porro quasi<br> minima blanditiis. Esse iste nulla facere reprehenderit quam fugiat deserunt placeat assumenda at.</p>
+                <br>
+            </div>
+            <img src="form-icon.webp" alt="formicon" class="formicon">
+                <form class="form">
+                    <fieldset>
+                        <legend>Send us a message:</legend>
+                        <input  type="text" id="name" name="name" placeholder="Name" required="required"><br><br>
+                        <input  type="email" id="Email ID" name="Email ID" placeholder="Email ID" required="required"><br><br>
+                        <select id="service" name="service" required="required">
+                            <option value="selected">Select the service needed</option>
+                            <option value="Party order">Party order</option>
+                            <option value="Catering">Catering</option>
+                        </select><br><br>
+                        <input type="text" id="address" name="address" required="required" placeholder="Address"><br><br>
+                        <input type="number" id="guest" required="required" placeholder="Expected number of guests"><br><br>
+                        <input type="date" id="date" required="required"><br><br>
+                        <!--<input type="submit" value="Submit">-->
+                        <button class="btn">Submit</button>
+                    </fieldset>
+                </form>
+                <img src="Wild_Berry_Cover_home_banner.jpg" alt="cake image" class="img">
+        </main>
+        <footer>
+            <div class="Officeadd">
+                <h4><u>Office address</u>:</h4>
+                <p>2nd floor, Commerce House 4,</p>
+                <p>besides shell petrol pump, Prahladnagar</p>
+                <p>Anandnagar road, Ahmedabad-380015,</p><br>
+                </div>
+                <div class="Customercare">
+                <h4><u>Customer care</u>:</h4>
+                <p>+9198 7654 3210</p><br>
+                </div>
+                <div class="Followus">
+                <h4><u>Follow us</u>:</h4>
+                <nav>
+                    <a href="https://www.facebook.com/HavmorIcecreams" target="_blank"><i class="fa-brands fa-facebook" ></i></a>
+                    <a href="https://twitter.com/HavmorIceCreams" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/havmoricecreams/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/user/HAVMORICECREAM" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                </nav>
+        </footer>
+    </body>
+</html>
